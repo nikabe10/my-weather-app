@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: rgb(95, 95, 95);
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: rgb(95, 95, 95);
+  font-size: 16px;
+  font-weight: 100;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-app {
+  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  border: 1px solid #ff9a9e;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.weather-icon {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+}
+
+.temperature {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.units {
+  position: relative;
+  top: -34px;
+  color: rgb(95, 95, 95);
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.button-search {
+  background-color: #ff9a9e;
+  border-color: #ff9a9e;
+}
+
+.button-search:hover {
+  background-color: #fff;
+  border-color: #ff9a9e;
+  color: #ff9a9e;
+}
+
+/* .button-search:active {
+  box-shadow: 2px 2px 5px #ff9a9e;
+} */
+
+.type-city-search {
+  border-color: #ff9a9e;
+}
+
+.type-city-search:active {
+  border-color: #ff9a9e;
+}
+
+a {
+  color: rgb(95, 95, 95);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.button-current {
+  background-color: rgb(95, 95, 95);
+  border-color: rgb(95, 95, 95);
+  color: #fff;
+}
+
+.button-current:hover {
+  background-color: #ff9a9e;
+  border-color: #ff9a9e;
+}
