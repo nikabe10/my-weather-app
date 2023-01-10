@@ -99,3 +99,7 @@ a:hover {
   background-color: #ff9a9e;
   border-color: #ff9a9e;
 }
+
+small {
+  padding-top: 20px;
+}
