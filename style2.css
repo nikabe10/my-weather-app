@@ -100,6 +100,6 @@ a:hover {
   border-color: #ff9a9e;
 }
 
-small {
-  padding-top: 20px;
+.signature {
+  text-align: center;
 }
