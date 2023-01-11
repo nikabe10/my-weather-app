@@ -80,12 +80,12 @@ li {
   border-color: #ff9a9e;
 }
 
-a {
+.temp-link {
   color: rgb(95, 95, 95);
   text-decoration: none;
 }
 
-a:hover {
+.temp-link:hover {
   color: #fff;
 }
 
@@ -102,4 +102,14 @@ a:hover {
 
 .signature {
   text-align: center;
+  color: rgb(95, 95, 95);
+}
+
+.link-to-profile:hover {
+  color: #ff9a9e;
+}
+
+.link-to-profile {
+  text-decoration: none;
+  color: rgb(95, 95, 95);
 }
