@@ -26,10 +26,11 @@ function formatDate(date) {
 function displayWeatherConditions(response) {
   console.log(response.data);
   document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temperature").innerHTML =
-    Math.round(celsiusTemperature);
+  let temperatureElement = document.querySelector("#temperature");
 
   celsiusTemperature = response.data.main.temp;
+
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
 
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(
